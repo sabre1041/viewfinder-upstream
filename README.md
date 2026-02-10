@@ -18,6 +18,16 @@ The Custom profile option allows users to adjust domain weights from 1.0× to 2.
 
 ![Landing Page - Custom Profile](images/screenshots/landing-page-custom.png)
 
+### Landing Page - Financial Services Profile
+The Financial Services profile demonstrates industry-specific weighting with critical emphasis on Data Sovereignty (2.0×) and Assurance Sovereignty (2.0×) to address regulatory requirements like PCI DSS and audit controls.
+
+![Landing Page - Financial Services Profile](images/screenshots/landing-page-financial.png)
+
+### CMMI Maturity Levels
+The five CMMI maturity levels (Initial, Managed, Defined, Quantitatively Managed, Optimizing) provide a framework for evaluating digital sovereignty readiness with color-coded indicators and percentage ranges.
+
+![CMMI Maturity Levels](images/screenshots/cmmi-levels.png)
+
 ### Assessment Page
 The assessment questionnaire presents 21 questions across 7 domains with Yes/No/"Don't Know" response options. Progress is auto-saved to browser storage.
 
@@ -234,6 +244,8 @@ viewfinder-lite/
 │   └── screenshots/             # Documentation screenshots
 │       ├── landing-page-balanced.png
 │       ├── landing-page-custom.png
+│       ├── landing-page-financial.png
+│       ├── cmmi-levels.png
 │       ├── assessment-page.png
 │       ├── results-page1.png
 │       ├── results-page2.png
