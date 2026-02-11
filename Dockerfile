@@ -6,11 +6,9 @@
 #
 # Features:
 # - 21 questions across 7 critical domains
-# - 8 industry-specific weighting profiles (Financial, Healthcare, Government, etc.)
-# - Custom profile with adjustable domain weights (1.0× to 2.0×)
-# - Intelligent weighted scoring algorithm
-# - PDF report generation with profile information
-# - Real-time weight visualization
+# - 4-level maturity assessment (Foundation, Developing, Strategic, Advanced)
+# - PDF report generation
+# - Progress auto-save
 # ==============================================================================
 
 FROM registry.access.redhat.com/ubi9/php-83:latest
@@ -20,12 +18,12 @@ FROM registry.access.redhat.com/ubi9/php-83:latest
 # ------------------------------------------------------------------------------
 LABEL maintainer="Chris Jenkins <chrisj@redhat.com>" \
       name="viewfinder-lite" \
-      version="1.1.0" \
-      description="Viewfinder Lite - Digital Sovereignty Readiness Assessment with Industry Profiles" \
-      summary="Lightweight assessment tool with 8 industry-specific weighting profiles for evaluating digital sovereignty posture" \
-      io.k8s.description="Digital Sovereignty Readiness Assessment tool with 7 domain coverage and customizable profile-based weighting" \
+      version="1.0.0" \
+      description="Viewfinder Lite - Digital Sovereignty Readiness Assessment" \
+      summary="Lightweight assessment tool for evaluating digital sovereignty posture across 7 domains" \
+      io.k8s.description="Digital Sovereignty Readiness Assessment tool with 7 domain coverage and 4-level maturity model" \
       io.k8s.display-name="Viewfinder Lite" \
-      io.openshift.tags="assessment,digital-sovereignty,php,redhat,profiles,weighted-scoring"
+      io.openshift.tags="assessment,digital-sovereignty,php,redhat"
 
 # ------------------------------------------------------------------------------
 # Environment Setup
