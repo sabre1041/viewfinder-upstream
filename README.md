@@ -23,32 +23,6 @@ This is an **upstream open source project** maintained by the Red Hat Community 
 - **Vendor-Neutral**: Applicable to any organization, regardless of technology stack
 - **Privacy-Focused**: No data collection - all assessment data stays in your browser
 
-## Screenshots
-
-### Landing Page
-The landing page features the Digital Sovereignty Readiness Assessment.
-
-![Landing Page - Balanced Profile](images/screenshots/landing-page-balanced.png)
-
-### Assessment Page
-The assessment questionnaire presents 21 questions across 7 domains with Yes/No/"Don't Know" response options. Progress is auto-saved to browser storage.
-
-![Assessment Page](images/screenshots/assessment-page.png)
-
-### Results Pages
-Comprehensive results display showing scoring, maturity level, domain analysis, and actionable recommendations.
-
-![Results Page - Overview](images/screenshots/results-page1.png)
-
-![Results Page - Domain Analysis](images/screenshots/results-page2.png)
-
-![Results Page - Recommendations](images/screenshots/results-page3.png)
-
-### PDF Report
-Professional PDF report with scores, domain breakdown, maturity level assessment, and tailored improvement actions.
-
-![PDF Report Sample](images/screenshots/pdf-report-sample.png)
-
 ## Features
 
 ### Digital Sovereignty Readiness Assessment
@@ -237,13 +211,6 @@ viewfinder-lite/
 ├── js/                          # Shared JavaScript files
 │
 ├── images/                      # Images and logos
-│   └── screenshots/             # Documentation screenshots
-│       ├── landing-page-balanced.png
-│       ├── assessment-page.png
-│       ├── results-page1.png
-│       ├── results-page2.png
-│       ├── results-page3.png
-│       └── pdf-report-sample.png
 │
 ├── error-pages/                 # Error handling pages
 │   └── error-handler.php
